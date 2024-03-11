@@ -1,0 +1,88 @@
+html
+{
+    height: 100%;
+    background-color: #f1f1f1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+section
+{
+    margin: 20vh auto 0vh;
+}
+
+section+section
+{
+    margin: 20px  auto 20vh;
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p
+{
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+form+form
+{
+    margin-top: -5px;
+}
+
+form+form>input[type="submit"]
+{
+    margin: 0 auto;
+    display: block;
+    background-color: unset;
+    color: cadetblue;
+    border-bottom-style: solid;
+    border-color: cadetblue;
+    padding: 2px;
+}
+
+form+form>input[type="submit"]:hover
+{
+    color: rgb(63, 121, 123);
+    background-color: unset;
+}
+
+label
+{
+    margin-right: 30px;
+}
+
+input[type="text"]
+{
+    border-style: none;
+    padding: 8px 5px;
+}
+
+input[type="submit"]
+{
+    margin-left: 10px;
+    border-style: none;
+    padding: 8px 20px;
+    background-color: cadetblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+    background-color: rgb(63, 121, 123);
+}
+
+.error
+{
+    color:red;
+}

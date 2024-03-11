@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/input.css">
+    <title>Christmas Gifts</title>
+</head>
+<body>
+    <section>
+        <h2>Redemption Counter</h2>
+        <p>Key in staff pass ID to check if the team has redeemed their teams' gift.</p>
+    </section>
+    <section>
+        <form action="/check" method="POST">
+            <label>Staff ID</label>
+            <input type="text" id="staffid" name="staffid" required>
+            <input type="submit" value="Check">
+            <p class="error">Invalid staff pass ID.</p>
+        </form>
+    </section>
+</body>
+</html>
